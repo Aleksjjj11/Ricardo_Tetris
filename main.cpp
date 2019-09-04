@@ -1,12 +1,10 @@
-#include "tetriswin.h"
+#include "tetrixwindow.h"
 #include <QApplication>
-#include <QPainter>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    TetrisWin w;
-    w.show();
-
-    return a.exec();
+    QApplication app(argc, argv);
+    TetrixWindow window;
+    window.show();
+    return app.exec();
 }

@@ -26,10 +26,14 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        tetriswin.cpp
+    tetrixboard.cpp \
+    tetrixpiece.cpp \
+    tetrixwindow.cpp
 
 HEADERS += \
-        tetriswin.h
+    tetrixboard.h \
+    tetrixpiece.h \
+    tetrixwindow.h
 
 FORMS += \
         tetriswin.ui
